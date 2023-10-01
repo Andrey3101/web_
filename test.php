@@ -1,7 +1,7 @@
 <?php
 
-$login = 'alexweber';
-$pass = 'NordicItSchool';
+$login = 'admin';
+$pass = '123';
 
 $login = 'root';
 $pass = 'root';
