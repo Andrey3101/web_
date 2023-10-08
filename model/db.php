@@ -2,7 +2,7 @@
     class db {
     
       private $login = 'root';
-      private $pass = 'root'; 
+      private $pass = 'mV3+ZRF3xULNqz'; 
       private $name_base = 'magazine_lession';
       
       function connect($host) {
