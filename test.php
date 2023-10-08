@@ -4,7 +4,7 @@ $login = 'admin';
 $pass = '123';
 
 $login = 'root';
-$pass = 'root';
+$pass = 'mV3+ZRF3xULNqz';
 $name_base = 'magazine_lession';
 $host = 'localhost';
 $link = new mysqli($host, $login, $pass, $name_base);
