@@ -6,8 +6,9 @@ $pass = '123';
 $login = 'root';
 $pass = 'mV3+ZRF3xULNqz';
 $name_base = 'magazine_lession';
-$host = 'localhost';
-$link = new mysqli($host, $login, $pass, $name_base);
+$host = '91.222.236.100';
+$port = '86';
+$link = new mysqli($host, $login, $pass, $name_base, $port);
 // Переменная хранит число сообщений выводимых на станице
 $num = 3;
 // Извлекаем из URL текущую страницу
