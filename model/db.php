@@ -9,12 +9,16 @@
         $link = new mysqli( $host, $this->login, $this->pass, $this->name_base);
         return $link;
       }
+      if ($link == false)
+      {
+          echo "Connention error";
+      }
       function extendConnect($host) {
         $link = new mysqli( $host, $this->login, $this->pass, $this->name_base);
         return $link;
       }
 
-      function __construct($host='localhost') {
+      function __construct($host='') {
         return $this -> connect($host);
       }
     } 
