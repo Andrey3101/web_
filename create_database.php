@@ -7,7 +7,7 @@ $password = "mV3+ZRF3xULNqz";
 $conn = new mysqli($servername, $username, $password);
 
 // Проверьте подключение
-если ($conn->connect_error) {
+if ($conn->connect_error) {
     die("Соединение не удалось: " . $conn->connect_error);
 }
 echo 'Подключение успешно';
