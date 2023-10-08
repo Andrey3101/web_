@@ -16,6 +16,6 @@ echo 'Подключение успешно';
 $sql = "create database magazine_lession";
 if ($conn->query($sql) === true) {
     echo 'База данных успешно создана';
-} if {
+} else {
     echo "Ошибка создания базы данных: " . $conn-> ошибка;
 }
