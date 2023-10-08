@@ -9,10 +9,6 @@
         $link = new mysqli( $host, $this->login, $this->pass, $this->name_base);
         return $link;
       }
-      if ($link == false)
-      {
-          echo "Connention error";
-      }
       function extendConnect($host) {
         $link = new mysqli( $host, $this->login, $this->pass, $this->name_base);
         return $link;
