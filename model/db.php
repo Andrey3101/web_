@@ -14,7 +14,7 @@
         return $link;
       }
 
-      function __construct($host='91.222.236.100') {
+      function __construct($host='localhost') {
         return $this -> connect($host);
       }
     } 
